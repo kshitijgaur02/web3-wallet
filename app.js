@@ -10,7 +10,7 @@ let tokenList;
 var balanceSum = 0;
 
 
-
+console.log(tokenList)
 const fetchData = () => {
   let myHeaders = new Headers();
   myHeaders.append(

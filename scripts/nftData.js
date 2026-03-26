@@ -28,7 +28,7 @@ const showNFT = (NFTs) => {
     document.getElementById("total-NFTs").innerHTML = 'TOTAL: ' + count;
   });
 
-  console.log("NFTs", NFTs);
+  //console.log("NFTs", NFTs);
   const contOptions = document.createElement("div");
   contOptions.classList.add("options");
 

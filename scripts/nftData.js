@@ -1,7 +1,7 @@
-let count;
+let count = 0;
+
 
 const showNFT = (NFTs) => {
-  count=0;
 
   //to display all nfts by default
   NFTs.forEach((data, i) => {

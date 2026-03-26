@@ -1,8 +1,8 @@
-let count;
+let count = 0;
+
 
 const showNFT = (NFTs) => {
-  count=0;
-
+//test PR here
   //to display all nfts by default
   NFTs.forEach((data, i) => {
     if (data.nft_data) {

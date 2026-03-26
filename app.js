@@ -9,8 +9,8 @@ const address = "0x51688cd36c18891167e8036bde2a8fb10ec80c43"; // address of the 
 let tokenList;
 var balanceSum = 0;
 
-
-
+//Test comment 
+console.log("test", tokenList)
 const fetchData = () => {
   let myHeaders = new Headers();
   myHeaders.append(
